@@ -1,0 +1,9 @@
+# Requirements for OpenWrt 24.10.7<
+opkg update
+opkg install adb
+opkg install picocom
+
+# OpenWrt 25.10.0 >
+apk update
+apk add adb picocom
+apk add adb
