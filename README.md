@@ -160,3 +160,5 @@ The script performs the following operations automatically:
 
 If a version is already installed, it is skipped, and the script proceeds directly to the next one.
 
+# DOWNLOA
+https://github.com/ilblogdicristiangallo/fota_zte_mf286d_openwrt_telia/releases/download/zte%2Cmf286d%2Ctelia%2Cupdate%2Cfota%2Crevision/telia.zip
