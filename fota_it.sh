@@ -115,9 +115,9 @@ do_update() {
     send_at "${AT_CMD}=2"
 
     # --------------------------------------------------
-    # ATTESA FLASH 10 MINUTI
+    # ATTESA FLASH 280 SECONDI
     # --------------------------------------------------
-    countdown "FLASH IN CORSO" 600
+    countdown "FLASH IN CORSO" 280
 
     # --------------------------------------------------
     # SECONDO UPLOAD FILE
@@ -141,9 +141,9 @@ do_update() {
     send_at "${AT_CMD}=2"
 
     # --------------------------------------------------
-    # ATTESA 3 MINUTI PER NUOVI FOTA
+    # ATTESA 30 SECONDI PER NUOVI FOTA
     # --------------------------------------------------
-    countdown "ATTESA NUOVI FOTA" 180
+    countdown "ATTESA NUOVI FOTA" 30
 
     # --------------------------------------------------
     # VERIFICA VERSIONE
