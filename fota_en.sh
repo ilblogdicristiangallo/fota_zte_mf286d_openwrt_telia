@@ -115,9 +115,9 @@ do_update() {
     send_at "${AT_CMD}=2"
 
     # --------------------------------------------------
-    # WAIT 10 MINUTES FOR FLASH
+    # WAIT 280 SECOND FOR FLASH
     # --------------------------------------------------
-    countdown "FLASH IN PROGRESS" 600
+    countdown "FLASH IN PROGRESS" 280
 
     # --------------------------------------------------
     # SECOND FILE UPLOAD
@@ -143,7 +143,7 @@ do_update() {
     # --------------------------------------------------
     # WAIT 3 MINUTES FOR NEW FOTA PROCESSING
     # --------------------------------------------------
-    countdown "WAITING FOR NEW FOTA" 180
+    countdown "WAITING FOR NEW FOTA" 30
 
     # --------------------------------------------------
     # VERSION CHECK
