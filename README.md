@@ -81,7 +81,7 @@ Lo script esegue queste operazioni automaticamente:
    - aspetta 10 minuti per il processo di flash
    - copia di nuovo i file `delta.package` e `delta.signature`
    - invia la seconda sequenza di comandi AT FOTA
-   - aspetta 3 minuti per il completamento
+   - aspetta 30 secondi per il completamento del modulo installato
    - verifica che la versione firmware sia stata aggiornata
 5. se l'aggiornamento riesce, passa automaticamente al successivo
 6. se fallisce, ritenta una seconda volta
@@ -152,7 +152,7 @@ The script performs the following operations automatically:
    - waits 10 minutes for the flashing process
    - copies the `delta.package` and `delta.signature` files again
    - sends the second sequence of FOTA AT commands
-   - waits 3 minutes for completion
+   - waits 30 second for completion module installed
    - verifies that the firmware version has been updated
 5. if the update succeeds, it automatically proceeds to the next one
 6. if it fails, it retries a second time
