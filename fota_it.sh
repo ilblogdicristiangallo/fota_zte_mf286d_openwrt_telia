@@ -117,7 +117,7 @@ do_update() {
     # --------------------------------------------------
     # ATTESA FLASH 280 SECONDI
     # --------------------------------------------------
-    countdown "FLASH IN CORSO" 280
+    countdown "FLASH IN CORSO" 200
 
     # --------------------------------------------------
     # SECONDO UPLOAD FILE
@@ -143,7 +143,7 @@ do_update() {
     # --------------------------------------------------
     # ATTESA 30 SECONDI PER NUOVI FOTA
     # --------------------------------------------------
-    countdown "ATTESA NUOVI FOTA" 30
+    countdown "ATTESA NUOVI FOTA" 8
 
     # --------------------------------------------------
     # VERIFICA VERSIONE
